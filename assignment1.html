@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assignment1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo margin">
+            e!
+        </div>
+        <button id="account"> Create an account</button>
+        <button id="login"> Login </button>
+    </div>
+
+    <header class="header">
+        <h1><b style="color:#192F60">BREAKFAST PLACES IN MUMBAI</b></h1>
+    </header>
+
+    <div class="common-card">
+        <div id="filters">
+            <h4 style="color:#192F60; background-color:white"> FILTERS </h4>
+            <form style="background-color:white">
+                <label style="color:#192F60; background-color:white"> Select Location</label><BR><br>
+                <select style="height:25px;background-color:white">
+                    <option> Select Location</option>
+                    <option> vijay nagar</option>
+                    <option> august kranti marg</option>
+                    <option> juhu chopati </option>
+                    <option> service road </option>
+                </select>
+                <BR><br>
+
+                <LAbel style="color:#192F60; background-color:white"> Cuisine</LAbel><BR><br>
+                <input type="checkbox"> North Indian <br>
+                <input type="checkbox"> South Indian <br>
+                <input type="checkbox"> Chinese <br>
+                <input type="checkbox"> Fast Food <br>
+                <input type="checkbox"> Street Food <br>
+                <br>
+
+                <label style="color:#192F60; background-color:white"> Cost For Two </label> <br> <br>
+                <input type="radio" name="radio"> Less than '500 <br>
+                <input type="radio" name="radio"> '500 to '1000 <br>
+                <input type="radio" name="radio"> '1000 to '1500 <br>
+                <input type="radio" name="radio"> '1500 t0 '2000 <br>
+                <input type="radio" name="radio"> '2000+ <BR> <br>
+
+                <label for="sort">
+                    <h4 style="color:#192F60; background-color:white"> SORT</h4>
+                </label><BR> <br>
+                <input type="radio" name="radio2"> Price low to high <br>
+                <input type="radio" name="radio2"> price high to low <br>
+
+            </form>
+
+        </div>
+        <div>
+            <div id="cafe1" class="twin-card">
+                <img src="idli.png">
+                <ul>
+                    <li>
+                        <h2 style="color:#192F60"> The Big Chill Cakery</h2>
+                    </li>
+                    <li>
+                        <h4 style="color:#192F60"> Fort</h4>
+                    </li>
+                    <li>
+                        <h4 style="color:#636F88" > Shop 1, Plot D, Samruddhi Complex, Chincholi …</h4>
+                    </li>
+                </ul>
+                <hr>
+                <p style="color:#636F88">Cuisins:<span style="margin:15%; color:#192F60"> Bakery</span></p>
+                <p style="color:#636F88"> Cost for two:
+                    <span style="margin:10%; color:#192F60;"> ₹700</span>
+                </p>
+
+            </div>
+            <div id="cafe2" class="twin-card">
+                <img src="idli.png">
+                <ul>
+                    <li>
+                        <h2 style="color:#192F60"> The Bake Shop</h2>
+                    </li>
+                    <li>
+                        <h4 style="color:#192F60"> Fort</h4>
+                    </li>
+                    <li>
+                        <h4 style="color:#636F88"> Shop 2, Plot D, Samruddhi Complex, Chincholi …</h4>
+                    </li>
+                </ul>
+                <hr>
+                <p style="color:#636F88">Cuisins:<span style="margin:15%; color:#192F60"> Bakery</span></p>
+                <p style="color:#636F88"> Cost for two:
+                    <span style="margin:10%; color:#192F60"> ₹700</span>
+                </p>
+            </div>
+        </div>
+        <div id="pagination">
+
+            <button>
+                < </button>
+                    <button> 1 </button>
+                    <button> 2 </button>
+                    <button> 3 </button>
+                    <button> 4 </button>
+                    <button> > </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
